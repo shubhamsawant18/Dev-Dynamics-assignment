@@ -15,6 +15,7 @@
   .chart-row {
     display: flex;
     justify-content: space-between; /* Adjust as needed */
+   
   }
   
   .chart {
