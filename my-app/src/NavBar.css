@@ -1,0 +1,47 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333; /* Dark background color for NavBar */
+    color: white; /* Text color for NavBar */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav-left {
+    display: flex;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter hover effect */
+  }
+  
+  .toggle-button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: inherit;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .toggle-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter hover effect */
+  }
+  

@@ -85,7 +85,7 @@ const DataAnalysis: React.FC = () => {
 
   return (
     <div className='container'>
-      <h1>Data Analysis</h1>
+     
      
       <div className="chart-row">
       <div className="chart">
