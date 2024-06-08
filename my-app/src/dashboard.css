@@ -1,24 +1,24 @@
 .container {
-  padding: 5px /* Decreased padding to make the container smaller */
+  padding: 5px 
 }
 
 .chart-container {
   display: flex;
-  padding-top: 1%; /* Decreased padding-top to reduce the height of the container */
+  padding-top: 1%; 
   flex-wrap: wrap;
   gap: 23px;
 }
 
 .chart {
-  flex: 1 1 calc(33.333% - 20px); /* Three charts per row, with spacing */
+  flex: 1 1 calc(33.333% - 20px); 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 10px;
   background-color: white;
-  min-height: 100px; /* Decrease this value to reduce the height of the chart container */
-  margin-top: 10px; /* Add a slight margin to the top */
+  min-height: 100px; 
+  margin-top: 10px; 
   .chart-title {
-    color: black; /* Text color for chart titles */
+    color: black; 
   }
   
 }
