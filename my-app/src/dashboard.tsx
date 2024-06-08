@@ -11,7 +11,7 @@ const DataAnalysis: React.FC = () => {
   const [dayData, setData] = useState<DataItem[]>([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5001/api/data')
+    axios.get('https://dev-dynamic.onrender.com/api/data')
       .then(response => {
         console.log(response.data.data); // Log the response to check the data structure
         let data: DataItem[] = response.data.data;

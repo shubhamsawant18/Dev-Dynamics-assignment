@@ -17,6 +17,7 @@ const NavBar: React.FC<NavBarProps> = ({ toggle, isDark }) => {
           <button className="nav-button">Ring-Chart</button>
           <button className="nav-button">Bar-Chart</button>
         </div>
+        
         <button onClick={toggle} className="toggle-button">
           {isDark ? 'Light Mode' : 'Dark Mode'}
         </button>
