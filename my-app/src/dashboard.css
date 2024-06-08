@@ -4,11 +4,10 @@
 
 .chart-container {
   display: flex;
-  padding-top: 1%; /* Decrease this value to reduce the height */
+  padding-top: 2.1%;
   flex-wrap: wrap;
   gap: 23px;
 }
-
 
 .chart {
   flex: 1 1 calc(33.333% - 20px); /* Three charts per row, with spacing */
@@ -16,9 +15,15 @@
   padding: 20px;
   border-radius: 10px;
   background-color: white;
-  min-height: 600px; /* Increase this value to make the cards taller */
-  margin-top: 10px; /* Add a slight margin to the top */
+  min-height: 400px; /* Decrease this value to reduce the height of the chart container */
+  margin-top: 10px;.chart-title {
+    color: black; /* Text color for chart titles */
+  }
+   /* Add a slight margin to the top */
 }
+
+
+
 
 .chart.bar-chart {
   flex: 2 1 calc(66.666% - 20px); /* Bar chart taking more space */

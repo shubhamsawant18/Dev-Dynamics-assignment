@@ -86,18 +86,19 @@ const DataAnalysis: React.FC = () => {
   return (
   <div className='container'>
     <div className="chart-container">
-      <div className="chart">
-        <h2 style={{ marginBottom: '10px' }}>Pie Chart</h2>
-        <Pie data={pieChartData} />
-      </div>
-      <div className="chart">
-        <h2 style={{ marginBottom: '10px' }}>Ring Chart</h2>
-        <Doughnut data={doughnutChartData} />
-      </div>
-      <div className="chart bar-chart"> {/* Assigning bar-chart class */}
-        <h2 style={{ marginBottom: '10px' }}>Bar Chart</h2>
-        <Bar data={chartJSData} />
-      </div>
+    <div className="chart">
+  <h2 className="chart-title" style={{ marginBottom: '10px' }}>Pie Chart</h2>
+  <Pie data={pieChartData} />
+</div>
+<div className="chart">
+  <h2 className="chart-title" style={{ marginBottom: '10px' }}>Ring Chart</h2>
+  <Doughnut data={doughnutChartData} />
+</div>
+<div className="chart bar-chart">
+  <h2 className="chart-title" style={{ marginBottom: '10px' }}>Bar Chart</h2>
+  <Bar data={chartJSData} />
+</div>
+
     </div>
   </div>
 );
