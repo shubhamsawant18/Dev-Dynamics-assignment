@@ -1,10 +1,10 @@
 .container {
-  padding: 5px; /* Decreased padding to make the container smaller */
+  padding: 5px /* Decreased padding to make the container smaller */
 }
 
 .chart-container {
   display: flex;
-  padding-top: 2.1%;
+  padding-top: 1%; /* Decreased padding-top to reduce the height of the container */
   flex-wrap: wrap;
   gap: 23px;
 }
@@ -15,14 +15,13 @@
   padding: 20px;
   border-radius: 10px;
   background-color: white;
-  min-height: 400px; /* Decrease this value to reduce the height of the chart container */
-  margin-top: 10px;.chart-title {
+  min-height: 100px; /* Decrease this value to reduce the height of the chart container */
+  margin-top: 10px; /* Add a slight margin to the top */
+  .chart-title {
     color: black; /* Text color for chart titles */
   }
-   /* Add a slight margin to the top */
+  
 }
-
-
 
 
 .chart.bar-chart {

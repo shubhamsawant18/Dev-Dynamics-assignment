@@ -99,6 +99,7 @@ const DataAnalysis: React.FC = () => {
   <Bar data={chartJSData} />
 </div>
 
+
     </div>
   </div>
 );
